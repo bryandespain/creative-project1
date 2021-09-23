@@ -6,13 +6,16 @@
 .navbar-brand {
   color: black !important;
 }
+
 .nav-link {
-    color:black!important;
+  color: black !important;
 }
-h1{
+
+h1 {
   text-align: center;
 }
-.standings{
+
+.standings {
   display: flex;
   justify-content: center;
 }
@@ -23,57 +26,69 @@ h1{
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
-.image{
+
+.image {
   clear: both;
   display: flex;
   justify-content: center;
 }
-.Item-rows{
+
+.Item-rows {
   display: grid;
-grid-template: auto auto auto auto auto / 1fr 1fr;
-grid-column-gap: 10px;
-grid-row-gap: 10px;
+  grid-template: auto auto auto auto auto / 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
-.Stats-rows{
+
+.Stats-rows {
   display: grid;
-grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
-grid-column-gap: 10px;
-grid-row-gap: 10px;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
-img{
+
+img {
   width: 100%;
 }
-.item img{
+
+.item img {
   height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
 }
-h1{
+
+h1 {
   text-align: center;
 }
-.Item-rows-price{
+
+.Item-rows-price {
   display: grid;
-grid-template: auto auto auto auto auto / 1fr 1fr;
-grid-column-gap: 10px;
-grid-row-gap: 5px;
-/*margin-left: 10px;*/
+  grid-template: auto auto auto auto auto / 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  /*margin-left: 10px;*/
 }
-p{
+
+p {
   text-align: center;
 }
-h3, h4{
+
+h3, h4 {
   color: black;
   text-align: center;
   font-size: 15px;
 }
-.cart{
+
+.cart {
   float: right;
   margin-right: 4px;
 }
-a:link{
+
+a:link {
   color: black;
 }
-.Items-row-price h3{
+
+.Items-row-price h3 {
   color: green;
 }
